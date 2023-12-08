@@ -1,0 +1,22 @@
+img{
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
+.list{
+    margin-left: 30%;
+}
+footer{
+    height: 20%;
+    margin-top: 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.font{
+    font-size: 1px;
+}
+.style{
+    margin-left: 70%;
+}
