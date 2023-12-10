@@ -7,7 +7,6 @@ import Contenu from './contenu-component/contenu'
 import Slider from './slider-component/slider';
 import Documentation from './documentation-component/Documentation'
 import Visit from './Visit-component/Visit'
-import {Routes , Route} from 'react-route-dom'
 
 /* autre function react component*/
 function Bonjour() {
