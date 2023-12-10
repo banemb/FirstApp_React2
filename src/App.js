@@ -5,6 +5,9 @@ import Nav from './menu-component/navbar';
 import FooterREACT from './footer-component/footer'
 import Contenu from './contenu-component/contenu'
 import Slider from './slider-component/slider';
+import Documentation from './documentation-component/Documentation'
+import Visit from './Visit-component/Visit'
+import {Routes , Route} from 'react-route-dom'
 
 /* autre function react component*/
 function Bonjour() {
@@ -32,10 +35,33 @@ function App() {
 
   return (
     <div>
-      <Nav />
-      <Slider />
-      <Contenu />
-      <FooterREACT />
+      <Routes>
+        <Route path='/' element={<Nav />} />
+      </Routes>
+
+      <Routes>
+        <Route path='/' element={<Nav />} />
+      </Routes>
+      
+      <Routes>
+        <Route path='/' element={<Slider />} />
+      </Routes>
+      
+      <Routes>
+        <Route path='/' element={<Contenu />} />
+      </Routes>
+      
+      <Routes>
+        <Route path='/' element={<FooterREACT />} />
+      </Routes>
+
+      <Routes>
+        <Route path='/Documentation' element={<Documentation />} />
+      </Routes>
+
+      <Routes>
+        <Route path='/Visit' element={<Visit />} />
+      </Routes>
       {/* <h1>{compteur}</h1>
         <button className = "btn btn-danger m-lg-2" onClick={hunbleclick}>incremente</button>
         <button  className = "btn btn-danger m-lg-2"onClick={hunbleclickDelete}>decrementation</button> */}

@@ -8,7 +8,8 @@ function Nav(){
    const Accueil = " Accueil";
    const  Documentation = " Documentation";
     const Visit = " Visit";
-    const linkVisit = "";
+    const linkVisit = "/Visit";
+    const linkdocumentation ='/Documentation';
 
 
     return (
@@ -16,8 +17,8 @@ function Nav(){
             <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-center" id="menu">
-                    <a class="nav-link" href="#">{Accueil}</a>
-                    <a class="nav-link" href="#">{Documentation}</a>
+                    <a class="nav-link" href="">{Accueil}</a>
+                    <a class="nav-link" href={linkdocumentation}>{Documentation}</a>
                     <a class="nav-link" href={linkVisit}>{Visit}</a>
                 </div>
             </div>
